@@ -19,20 +19,32 @@ This repository contains examples of Test Case samples written by myself for dif
 
 **Test Data:** User: test & Pass: 1234
 
-___
+--
 
-**Test ID:** 2
+**Test ID:** 
 
-**Test Title:** Test login with correct credentials
+**Test Title:** 
 
-**Description:** Test the login by using correct credentials.
+**Description:** 
 
 **Steps to reproduce:**
-1. Go to site https://login.wordpress.org/ 
-2. Add correct user/password
-3. Press the login button
-4. Observe if user can login
 
-**Expected result:** User should be able to login.
 
-**Test Data:** User: test & Pass: 1234
+**Expected result:** 
+
+**Test Data:** 
+
+--
+
+**Test ID:** 
+
+**Test Title:** 
+
+**Description:** 
+
+**Steps to reproduce:**
+
+
+**Expected result:** 
+
+**Test Data:** 
