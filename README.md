@@ -1,7 +1,10 @@
 # Test Case Samples
-This repository contains examples of Test Case samples written by myself for different real webpages, in order to verify their functionalities. These Test Cases aim Positive Flow, Negative Flow and Other Flows of the websites.
+This repository contains Test Case samples written by myself for different real webpages, in order to verify their functionalities. These Test Cases aim Positive Flow, Negative Flow and Other Flows of the websites.
 
 ------
+
+### :one: Test Cases for Login function on https://login.wordpress.org/ :arrow_down:
+
 
 **Test ID:** 1
 
@@ -11,13 +14,13 @@ This repository contains examples of Test Case samples written by myself for dif
 
 **Steps to reproduce:**
 1. Go to site https://login.wordpress.org/ 
-2. Add correct user/password
+2. Add correct username and password
 3. Press the login button
 4. Observe if user can login
 
 **Expected result:** User should be able to login.
 
-**Test Data:** User: test & Pass: 1234
+**Test Data:** Username: test & Password: 1234
 
 #
 
@@ -30,13 +33,13 @@ This repository contains examples of Test Case samples written by myself for dif
 
 **Steps to reproduce:** 
 1. Go to site https://login.wordpress.org/ 
-2. Add incorrect user/pass 
+2. Add incorrect username / password
 3. Press the login button
 4. Observe if user can't login
 
-**Expected result:** User should not be able to login with incorrect user/pass and it gets a window alert with the message ”Username/ Password incorrect!”.
+**Expected result:** User should not be able to login with incorrect username / password and it gets a window alert with the message "Username/ Password incorrect!".
 
-**Test Data:** User: test & Password: 1234 
+**Test Data:** Username: test & Password: 1234 
 
 #
 
@@ -61,40 +64,43 @@ This repository contains examples of Test Case samples written by myself for dif
 
 **Test ID:** 4
 
-**Test Title:** Test the ”Remember Me” checkbox
+**Test Title:** Test the "Remember Me" checkbox
 
-**Description:** Test the ”Remember Me” checkbox by using correct credentials and checking it.
+**Description:** Test the "Remember Me" checkbox by using correct credentials and checking it.
 
 **Steps to reproduce:** 
 1. Go to site https://login.wordpress.org/ 
-2. Add the correct user/pass
-3. Click the ”Remember Me” checkbox
+2. Add the correct username / password
+3. Click the "Remember Me" checkbox
 4. Observe if user remains logged in after closing the webpage
 
-**Expected result:** User should remain logged in after checking ”Remember Me” checkbox and closing the webpage.
+**Expected result:** User should remain logged in after checking "Remember Me" checkbox and closing the webpage.
 
-**Test Data:** User: test & Pass: 1234
+**Test Data:** Username: test & Password: 1234
 
 #
 
 
 **Test ID:** 5
 
-**Test Title:** Test ”Lost your password?” link
+**Test Title:** Test "Lost your password?" link
 
-**Description:** Test the functionality to change/recover your password by using ”Lost your password?” link.
+**Description:** Test the functionality to change / recover the password by using "Lost your password?" link.
 
 **Steps to reproduce:**
 1. Go to site https://login.wordpress.org/  
 2. Add correct username
-3. Press ”Forgot your passowrd?” link
+3. Press "Forgot your passowrd?" link
 4. Observe if user receives an email to change the password
 
-**Expected result:** User should receive an email to change/recover the password after pressing the ”Forgot your passowrd?” link.
+**Expected result:** User should receive an email to change / recover the password after pressing the "Forgot your passowrd?" link.
 
-**Test Data:** User: test & Pass: /
+**Test Data:** Username: test & Password: /
 
 #
+
+
+### :two: Test Cases for search bar function on https://www.emag.ro/ :arrow_down:
 
 
 **Test ID:** 6
@@ -144,11 +150,11 @@ This repository contains examples of Test Case samples written by myself for dif
 1. Go to site https://www.emag.ro/ 
 2. Search a non-existent item in the search bar
 3. Press the enter button
-4. Observe if user receives no valid results and/or suggestions to improve searching
+4. Observe if user receives no valid results and / or suggestions to improve searching
 
-**Expected result:** User should receive no valid results of searching a non-existent item and/or suggestions to improve the searching.
+**Expected result:** User should receive no valid results of searching a non-existent item and / or suggestions to improve the searching.
 
-**Test Data:** ”dolpetrimente”
+**Test Data:** "dolpetrimente"
 
 #
 
@@ -173,26 +179,29 @@ This repository contains examples of Test Case samples written by myself for dif
 
 **Test ID:** 10
 
-**Test Title:** Test the XSS security vulnerability in the search bar
+**Test Title:** Test the cross-site scripting security vulnerability in the search bar
 
 **Description:** Test the security of the search bar by using a cross-site scripting script in the search field.
 
 **Steps to reproduce:** 
 1. Go to site https://www.emag.ro/ 
 2. Introduce in the search bar the security test.
-3. Press the enter button
-4. Observe if it is opening a pop-up/window alert
+3. Press the Enter button
+4. Observe if it is opening a pop-up / window alert
 
-**Expected result:** It should not open any pop-up/window alert on the webpage unless it is a cross-site scripting security problem.
+**Expected result:** It should not open any pop-up / window alert on the webpage unless it is a cross-site scripting security problem.
 
 **Test Data:** Security test: <script>alert(1)</script>
 
 #
 
 
+### :three: Test Cases for wishlist function on www.udemy.com :arrow_down:
+
+
 **Test ID:** 11
 
-**Test Title:** Test the wishlist by adding a new product on Udemy
+**Test Title:** Test the wishlist by adding a new product on www.udemy.com
 
 **Description:** Test the functionality of wishlist from www.udemy.com by adding a new product here from the main page.
 
@@ -224,7 +233,7 @@ This repository contains examples of Test Case samples written by myself for dif
 
 **Expected result:** The deleted product should not appear in the user wishlist anymore.
 
-**Test Data:**Username: test & Password: 1234
+**Test Data:** Username: test & Password: 1234
 
 #
 
@@ -239,10 +248,10 @@ This repository contains examples of Test Case samples written by myself for dif
 1. Go to site https://www.udemy.com/ and log in
 2. Click on the wishlist button near the account name
 3. Select one product from wishlist by clicking on it
-4. Press ”Add to cart” button
-5. Observe if it open a notification/ window with ”Added to cart”
+4. Press "Add to cart" button
+5. Observe if it open a notification / window with "Added to cart"
 
-**Expected result:** It should appear a notification/ a distinct window which show to user the product wich was added to cart, in order to buy it.
+**Expected result:** It should appear a notification / a distinct window which show to user the product which was added to cart, in order to buy it.
 
 **Test Data:** Username: test & Password: 1234
 
@@ -263,7 +272,7 @@ This repository contains examples of Test Case samples written by myself for dif
 
 **Expected result:** User should receive correct and relevant results of searching a specific product by using the search bar in wishlist.
 
-**Test Data:** Username: test & Password: 1234 & "sql" (in search bar)
+**Test Data:** Username: test & Password: 1234 & "sql" (into search bar)
 
 #
 
@@ -278,8 +287,8 @@ This repository contains examples of Test Case samples written by myself for dif
 1. Go to site https://www.udemy.com/ and log in
 2. Click on the wishlist button near the account name
 3. Select one product from wishlist by clicking on it
-4. Press ”Buy now” button
-5. Observe if it open the new page where user can buy the product
+4. Press "Buy now" button
+5. Observe if it opens the new page where user can buy the product
 
 **Expected result:** User should see the new page where the selected product can be purchased online.
 
