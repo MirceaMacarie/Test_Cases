@@ -20,7 +20,7 @@ This repository contains examples of Test Case samples written by myself for dif
 **Test Data:** User: test & Pass: 1234
 
 #
-------------
+
 
 **Test ID:** 
 
@@ -36,7 +36,7 @@ This repository contains examples of Test Case samples written by myself for dif
 **Test Data:** 
 
 #
-------------
+
 
 **Test ID:** 
 
