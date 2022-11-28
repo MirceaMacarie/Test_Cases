@@ -97,7 +97,7 @@ This repository contains Test Case samples written by myself for different real 
 
 **Test Data:** Username: test & Password: /
 
-#
+------
 
 
 ### :two: Test Cases for search bar function on https://www.emag.ro/ :arrow_down:
@@ -193,7 +193,7 @@ This repository contains Test Case samples written by myself for different real 
 
 **Test Data:** Security test: <script>alert(1)</script>
 
-#
+------
 
 
 ### :three: Test Cases for wishlist function on www.udemy.com :arrow_down:
