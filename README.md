@@ -4,6 +4,8 @@ This repository contains Test Case samples written by myself for different real 
 ------
 
 ### :one: Test Cases for Login function on https://login.wordpress.org/ :arrow_down:
+![login-wp](https://user-images.githubusercontent.com/115346533/205150712-3dd8e65e-d957-4fc5-8e8f-57e4207e12aa.png)
+
 
 
 **Test ID:** 1
@@ -101,6 +103,8 @@ This repository contains Test Case samples written by myself for different real 
 
 
 ### :two: Test Cases for search bar function on https://www.emag.ro/ :arrow_down:
+![emag-search](https://user-images.githubusercontent.com/115346533/205151237-5cd31123-8e7b-4053-b71a-902af540fde2.png)
+
 
 
 **Test ID:** 6
@@ -197,6 +201,8 @@ This repository contains Test Case samples written by myself for different real 
 
 
 ### :three: Test Cases for wishlist function on www.udemy.com :arrow_down:
+![udemy_wishlist](https://user-images.githubusercontent.com/115346533/205152028-7bbb2b46-799f-4a69-9a28-b4f3d4cbc7b1.jpg)
+
 
 
 **Test ID:** 11
