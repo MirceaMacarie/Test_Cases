@@ -299,3 +299,4 @@ This repository contains Test Case samples written by myself for different real 
 **Expected result:** User should see the new page where the selected product can be purchased online.
 
 **Test Data:** Username: test & Password: 1234
+
