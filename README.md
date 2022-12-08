@@ -1,5 +1,5 @@
 # Test Case Samples
-This repository contains Test Case samples written by myself for different real webpages, in order to verify their functionalities. These Test Cases aim Positive Flow, Negative Flow and Other Flows of the websites.
+This repository contains Test Case samples written by myself for different real webpages, in order to verify their functionalities. These Test Cases aim Happy Flow, Negative Flow and Other Flows of the websites.
 
 ------
 
