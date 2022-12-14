@@ -300,3 +300,101 @@ This repository contains Test Case samples written by myself for different real 
 
 **Test Data:** Username: test & Password: 1234
 
+------
+
+
+### :four: Test Cases for website https://eventbook.ro/ :arrow_down:
+
+
+
+**Test ID:** 16
+
+**Test Title:** The existence of a custom 404 error page
+
+**Description:** It is verified if this website has a custom 404 error page which help the people to navigate on it.
+
+**Steps to reproduce:**
+1. Go on https://eventbook.ro/
+2. Write in the URL something that does not exist on the website
+
+**Expected result:** An error page should appear directing the users to what they are looking for.
+
+**Test Data:** "https://eventbook.ro/BlackJack21"
+
+#
+
+
+**Test ID:** 17
+
+**Test Title:** There are different versions of the website in foreign languges (EN, FR, HU)
+
+**Description:** The website should have proper versions in different foreign languges, in English, French and Hungarian.
+
+**Steps to reproduce:**
+1. Go on https://eventbook.ro/
+2. Select one at a time different languages of the website from the option at the top right of the page
+
+**Expected result:** The language of the website should change completely to the new language related to our option (Romanian, English, French, Hungarian).
+
+**Test Data:** /
+
+#
+
+
+**Test ID:** 18
+
+**Test Title:** Search the name of a film or cinema in the search bar
+
+**Description:** The search bar should help the user to find what hei s looking for (a movie title, a cinema, films by actor name etc.).
+
+**Steps to reproduce:**
+1. Go on https://eventbook.ro/
+2. Write in the search bar the name of a movie/ cinema from Romania
+
+**Expected result:** The user should get a complet list of relevant results of what he is looking for, movies, cinema, events etc.
+
+**Test Data:** Into the search bar: "Florin Piersic"
+
+#
+
+
+**Test ID:** 19
+
+**Test Title:** The account creation without all required elements
+
+**Description:** The "Create account" form should not let user to create a new account without all mandatory elements. 
+
+**Steps to reproduce:**
+1. Go on https://eventbook.ro/
+2. Click on Login button
+3. Click on Create account button
+4. Complete the firstname and secondname in the form, and let the other inputs blank
+5. Click on the Create account button, under the form
+
+**Expected result:** The website should show an error message for the user, because he did not complete all mandatory inputs of the form. 
+
+**Test Data:** "Nume" input: "Ionescu" & "Prenume" input: "Mihai"
+
+#
+
+
+**Test ID:** 20
+
+**Test Title:** The existence of tutorial pages on buying tickets for users
+
+**Description:** The website should have a special section with information about buying tickets operation for users who do not know it.
+
+**Steps to reproduce:**
+1. Go on https://eventbook.ro/
+2. Scroll down to the footer of the page
+3. Click on the button "How to buy tickets" from "Information" section
+
+**Expected result:** The user should be redirected to a separate page with page with information on how to buy movie tickets.
+
+**Test Data:** /
+
+
+------
+
+
+
